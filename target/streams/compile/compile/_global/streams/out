@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/machd/Desktop/Note-App-Scala/src/main/scala/Main.scala:26:32: value toHttpApp is not a member of zio.http.Routes[Any,Nothing][0m
+[0m[[0m[31merror[0m] [0m[0m      httpApp = combinedRoutes.toHttpApp[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/machd/Desktop/Note-App-Scala/src/main/scala/Main.scala:27:19: overloaded method serve with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  [R](httpApp: zio.http.Routes[R,zio.http.Response])(implicit trace: zio.Trace, tag: zio.EnvironmentTag[R]): zio.URIO[R with zio.http.Server,Nothing] <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  [R](httpApp: zio.http.HttpApp[R])(implicit trace: zio.Trace, tag: zio.EnvironmentTag[R]): zio.URIO[R with zio.http.Server,Nothing][0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Any)[0m
+[0m[[0m[31merror[0m] [0m[0m      _ <- Server.serve(httpApp).provide(Server.default)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

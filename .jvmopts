@@ -1,0 +1,4 @@
+-Dsbt.coursier.timeout=60
+-Dsbt.coursier.maxRetries=3
+-Djava.net.preferIPv4Stack=true
+-Dhttp.keepAlive=false
