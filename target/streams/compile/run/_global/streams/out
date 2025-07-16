@@ -1,0 +1,194 @@
+[0m[[0m[31merror[0m] [0m[0mException in thread "zio-fiber-5,10,6,7,4" java.lang.RuntimeException: Failed to get driver instance for jdbcUrl=jdbc:postgresql://localhost:5432/notes[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Database$.$anonfun$layer$3(Database.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.ZIO.$anonfun$map$2(ZIO.scala:960)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Database.layer(Database.scala:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Database.layer(Database.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	Suppressed: java.sql.SQLException: No suitable driver[0m
+[0m[[0m[31merror[0m] [0m[0m		at java.sql/java.sql.DriverManager.getDriver(DriverManager.java:299)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:106)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:112)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:93)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)[0m
+[0m[[0m[31merror[0m] [0m[0m		at Database$.$anonfun$layer$3(Database.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m		at zio.ZIO.$anonfun$map$2(ZIO.scala:960)[0m
+[0m[[0m[31merror[0m] [0m[0m		Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-5"[0m
+[0m[[0m[31merror[0m] [0m[0m			at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m			Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-5"[0m
+[0m[[0m[31merror[0m] [0m[0m				at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m				Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-5"[0m
+[0m[[0m[31merror[0m] [0m[0m					at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m					Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m						at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m						Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m							at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m							Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m								at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0mException in thread "zio-fiber-6,4" java.lang.RuntimeException: Failed to get driver instance for jdbcUrl=jdbc:postgresql://localhost:5432/notes[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Database$.$anonfun$layer$3(Database.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.ZIO.$anonfun$map$2(ZIO.scala:960)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Database.layer(Database.scala:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Database.layer(Database.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	Suppressed: java.sql.SQLException: No suitable driver[0m
+[0m[[0m[31merror[0m] [0m[0m		at java.sql/java.sql.DriverManager.getDriver(DriverManager.java:299)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:106)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:112)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:93)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)[0m
+[0m[[0m[31merror[0m] [0m[0m		at Database$.$anonfun$layer$3(Database.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m		at zio.ZIO.$anonfun$map$2(ZIO.scala:960)[0m
+[0m[[0m[31merror[0m] [0m[0mException in thread "zio-fiber-4,5" java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m		at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m		Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m			at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m			Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m				at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m				Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m					at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.RuntimeException: Failed to get driver instance for jdbcUrl=jdbc:postgresql://localhost:5432/notes[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Database$.$anonfun$layer$3(Database.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.ZIO.$anonfun$map$2(ZIO.scala:960)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:904)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:967)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:967)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:967)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:967)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:967)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.evaluateEffect(FiberRuntime.scala:381)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.evaluateMessageWhileSuspended(FiberRuntime.scala:504)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.drainQueueOnCurrentThread(FiberRuntime.scala:220)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.run(FiberRuntime.scala:139)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.ZScheduler$$anon$4.run(ZScheduler.scala:478)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.sql.SQLException: No suitable driver[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.sql/java.sql.DriverManager.getDriver(DriverManager.java:299)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:106)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Database$.$anonfun$layer$3(Database.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.ZIO.$anonfun$map$2(ZIO.scala:960)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:904)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:967)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:967)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:967)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:890)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:1024)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:967)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.runLoop(FiberRuntime.scala:967)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.evaluateEffect(FiberRuntime.scala:381)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.evaluateMessageWhileSuspended(FiberRuntime.scala:504)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.drainQueueOnCurrentThread(FiberRuntime.scala:220)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.FiberRuntime.run(FiberRuntime.scala:139)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.internal.ZScheduler$$anon$4.run(ZScheduler.scala:478)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) Exception in thread "zio-fiber-5,10,6,7,4" java.lang.RuntimeException: Failed to get driver instance for jdbcUrl=jdbc:postgresql://localhost:5432/notes[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Database$.$anonfun$layer$3(Database.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.ZIO.$anonfun$map$2(ZIO.scala:960)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Database.layer(Database.scala:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Database.layer(Database.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	Suppressed: java.sql.SQLException: No suitable driver[0m
+[0m[[0m[31merror[0m] [0m[0m		at java.sql/java.sql.DriverManager.getDriver(DriverManager.java:299)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:106)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:112)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:93)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)[0m
+[0m[[0m[31merror[0m] [0m[0m		at Database$.$anonfun$layer$3(Database.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m		at zio.ZIO.$anonfun$map$2(ZIO.scala:960)[0m
+[0m[[0m[31merror[0m] [0m[0m		Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-5"[0m
+[0m[[0m[31merror[0m] [0m[0m			at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m			Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-5"[0m
+[0m[[0m[31merror[0m] [0m[0m				at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m				Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-5"[0m
+[0m[[0m[31merror[0m] [0m[0m					at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m					Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m						at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m						Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m							at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m							Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m								at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0mException in thread "zio-fiber-6,4" java.lang.RuntimeException: Failed to get driver instance for jdbcUrl=jdbc:postgresql://localhost:5432/notes[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:114)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:112)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)[0m
+[0m[[0m[31merror[0m] [0m[0m	at Database$.$anonfun$layer$3(Database.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at zio.ZIO.$anonfun$map$2(ZIO.scala:960)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Database.layer(Database.scala:12)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Database.layer(Database.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	Suppressed: java.sql.SQLException: No suitable driver[0m
+[0m[[0m[31merror[0m] [0m[0m		at java.sql/java.sql.DriverManager.getDriver(DriverManager.java:299)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.util.DriverDataSource.<init>(DriverDataSource.java:106)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.PoolBase.initializeDataSource(PoolBase.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.PoolBase.<init>(PoolBase.java:112)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:93)[0m
+[0m[[0m[31merror[0m] [0m[0m		at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)[0m
+[0m[[0m[31merror[0m] [0m[0m		at Database$.$anonfun$layer$3(Database.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m		at zio.ZIO.$anonfun$map$2(ZIO.scala:960)[0m
+[0m[[0m[31merror[0m] [0m[0mException in thread "zio-fiber-4,5" java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m	at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m		at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m		Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m			at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m			Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m				at <empty>.Main.run(Main.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m				Suppressed: java.lang.InterruptedException: Interrupted by thread "zio-fiber-4"[0m
+[0m[[0m[31merror[0m] [0m[0m					at <empty>.Main.run(Main.scala:36)[0m

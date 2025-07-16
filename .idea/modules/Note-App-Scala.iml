@@ -36,6 +36,8 @@
     <orderEntry type="library" name="sbt: dev.zio:zio-constraintless_2.13:0.3.2:jar" level="project" />
     <orderEntry type="library" name="sbt: dev.zio:zio-http_2.13:3.0.0-RC4:jar" level="project" />
     <orderEntry type="library" name="sbt: dev.zio:zio-internal-macros_2.13:2.0.21:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:zio-interop-cats_2.13:23.0.0.8:jar" level="project" />
+    <orderEntry type="library" name="sbt: dev.zio:zio-interop-tracer_2.13:23.0.0.8:jar" level="project" />
     <orderEntry type="library" name="sbt: dev.zio:zio-json_2.13:0.6.2:jar" level="project" />
     <orderEntry type="library" name="sbt: dev.zio:zio-prelude-macros_2.13:1.0.0-RC21:jar" level="project" />
     <orderEntry type="library" name="sbt: dev.zio:zio-prelude_2.13:1.0.0-RC21:jar" level="project" />

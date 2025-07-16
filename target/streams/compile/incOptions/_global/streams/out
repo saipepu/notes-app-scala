@@ -1,11 +1,26 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/machd/Desktop/Note-App-Scala/target/scala-2.13/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$CreateUserRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$CreateUserRequest.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$CreateUserRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$CreateUserRequest.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$CreateUserRequest$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$CreateUserRequest.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	UsersRoutes$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/machd/Desktop/Note-App-Scala/target/scala-2.13/classes.bak[0m
